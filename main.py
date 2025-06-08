@@ -32,23 +32,6 @@ if __name__ == '__main__':
         # ]
     }
 
-    # # 简单自动测试用例
-    # print('--- 自动测试用例 ---')
-    # sql = "SELECT Name, City FROM Students WHERE Age > 20 ORDER BY Name;"
-    # # sql = "SELECT Name FROM Students UNION ALL SELECT Name FROM Teachers UNION ALL SELECT Name FROM Teachers;"
-    # if sql.endswith(';'):
-    #     sql = sql[:-1]
-    # tokens = tokenize(sql)
-    # print(tokens)   
-    # parser = Parser(tokens)
-    # ast = parser.parse()
-    # result = execute(ast, tables)
-    # print('测试查询结果:')
-    # for row in result:
-    #     print(row)
-    # print('--- 测试结束 ---')
-    # sys.exit()
-
     mode = input('请选择输入模式：1. 交互输入  2. 文件输入  [1/2]: ').strip()
     if mode == '2':
         file_path = input('请输入SQL文件路径: ').strip()

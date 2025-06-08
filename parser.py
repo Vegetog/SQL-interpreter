@@ -35,12 +35,12 @@ class Parser:
             if op == 'UNION':
                 if isinstance(node, UnionStatement) and node.all == all_flag:
                     node.selects.append(right)
-                else:
+                else: # 第一次执行
                     node = UnionStatement([node, right], all=all_flag)
             else:  # EXCEPT
                 if isinstance(node, ExceptStatement):
                     node.selects.append(right)
-                else:
+                else: # 第一次执行
                     node = ExceptStatement([node, right])
         return node
 
@@ -51,7 +51,7 @@ class Parser:
             right = self.parse_primary()
             if isinstance(node, IntersectStatement):
                 node.selects.append(right)
-            else:
+            else: # 第一次执行
                 node = IntersectStatement([node, right])
         return node
 
@@ -160,7 +160,7 @@ class Parser:
             limit = int(tok.value)
         return SelectStatement(columns, table, where, order_by, limit, join)
 
-    def parse_column_list(self):
+    def parse_column_list(self): # 解析SELECT后面的列名列表
         columns = []
         if self.current() and self.current().type == 'OP' and self.current().value == '*':
             self.eat('OP')
@@ -175,7 +175,7 @@ class Parser:
                 break
         return columns
 
-    def parse_column_name(self):
+    def parse_column_name(self): # 解析单个列名
         # 支持表.字段
         name = self.eat('IDENT').value
         if self.current() and self.current().type == 'DOT':
@@ -227,12 +227,12 @@ class Parser:
             left = self.parse_column_name()
             op = self.eat('OP').value
             # 右侧可以是表.字段，也可以是常量
-            if self.current() and self.current().type == 'IDENT':
+            if self.current() and self.current().type == 'IDENT': # user.id = order.user_id
                 right = Column(self.parse_column_name())
-            elif self.current() and self.current().type == 'NUMBER':
+            elif self.current() and self.current().type == 'NUMBER': # a = 1
                 tok = self.eat('NUMBER')
                 right = Value(float(tok.value) if '.' in tok.value else int(tok.value))
-            elif self.current() and self.current().type == 'STRING':
+            elif self.current() and self.current().type == 'STRING': # a = 'abc'
                 tok = self.eat('STRING')
                 right = Value(tok.value.strip("'"))
             else:
@@ -372,11 +372,11 @@ class Parser:
         table = self.eat('IDENT').value
         return DropTableStatement(table)
 
-def get_output_columns(rows, ast):
+def get_output_columns(rows, ast): # 返回表所对应的列名
     # 递归处理复合查询
-    if hasattr(ast, 'selects'):
+    if hasattr(ast, 'selects'): # 对于嵌套的查询，递归处理
         return get_output_columns(rows, ast.selects[0])
-    if hasattr(ast, 'columns'):
+    if hasattr(ast, 'columns'): # 对于单个查询，返回列名
         if len(ast.columns) == 1 and ast.columns[0].name == '*':
             if rows:
                 return list(rows[0].keys())
