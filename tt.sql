@@ -82,8 +82,10 @@ SELECT Name FROM Teachers;
 SELECT City FROM Students
 EXCEPT
 SELECT City FROM Teachers;
-
+/*
+优先级：
 -- union = except < intersect
+*/
 SELECT Name FROM Students
 UNION
 SELECT Name FROM Teachers

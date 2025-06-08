@@ -1,0 +1,274 @@
+执行结果:
+创建表成功: Students，字段: ['StudentID INT PRIMARY KEY NOT NULL', 'Name TEXT NOT NULL', 'Age INT NOT NULL', 'City TEXT']
+当前所有表:
+表 Students: []
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])]}
+执行结果:
+创建表成功: Teachers，字段: ['TeacherID INT PRIMARY KEY NOT NULL', 'Name TEXT NOT NULL', 'Subject TEXT', 'City TEXT']
+当前所有表:
+表 Students: []
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])]}
+表 Teachers: []
+执行结果:
+创建表成功: Courses，字段: ['CourseID INT PRIMARY KEY NOT NULL', 'CourseName TEXT NOT NULL', 'Dept TEXT']
+当前所有表:
+表 Students: []
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: []
+表 Courses: []
+执行结果:
+插入成功: 6 行
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 22, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 5, 'Name': '钱七', 'Age': 19, 'City': '深圳'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: []
+表 Courses: []
+执行结果:
+插入成功: 5 行
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 22, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 5, 'Name': '钱七', 'Age': 19, 'City': '深圳'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: []
+执行结果:
+插入成功: 6 行
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 22, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 5, 'Name': '钱七', 'Age': 19, 'City': '深圳'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+插入成功: 1 行
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 22, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 5, 'Name': '钱七', 'Age': 19, 'City': '深圳'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+更新行数: 1
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 5, 'Name': '钱七', 'Age': 19, 'City': '深圳'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+删除行数: 1
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}
+{'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}
+{'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}
+{'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}
+{'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}
+{'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'Name': '赵六', 'City': '北京'}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'Name': '李四'}
+{'Name': '王五'}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'Name': '周九', 'Age': 28}
+{'Name': '李四', 'Age': 25}
+{'Name': '赵六', 'Age': 23}
+{'Name': '李四', 'Age': 21}
+{'Name': '王五', 'Age': 21}
+{'Name': '张三', 'Age': 20}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'Name': '周九', 'Age': 28}
+{'Name': '李四', 'Age': 25}
+{'Name': '赵六', 'Age': 23}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+错误: 主键字段 StudentID 的值 1 已存在，必须唯一
+出错SQL: INSERT INTO Students (StudentID, Name, Age, City) VALUES (1, '新张三', 20, '天津')
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+错误: NOT NULL constraint failed: Name
+出错SQL: INSERT INTO Students (StudentID, Name, Age, City) VALUES (8, NULL, 30, '南京')
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'Students.Name': '李四', 'Teachers.Name': '李四'}
+{'Students.Name': '李四', 'Teachers.Name': '李四'}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'Students.Name': '张三', 'Teachers.Name': None}
+{'Students.Name': '李四', 'Teachers.Name': '李四'}
+{'Students.Name': '王五', 'Teachers.Name': None}
+{'Students.Name': '赵六', 'Teachers.Name': None}
+{'Students.Name': '李四', 'Teachers.Name': '李四'}
+{'Students.Name': '周九', 'Teachers.Name': None}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'Students.Name': None, 'Teachers.Name': '王老师'}
+{'Students.Name': '李四', 'Teachers.Name': '李四'}
+{'Students.Name': '李四', 'Teachers.Name': '李四'}
+{'Students.Name': None, 'Teachers.Name': '张老师'}
+{'Students.Name': None, 'Teachers.Name': '赵老师'}
+{'Students.Name': None, 'Teachers.Name': '王老师'}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'Students.Name': '李四', 'Teachers.Name': '李四'}
+{'Students.Name': '李四', 'Teachers.Name': '李四'}
+{'Students.Name': '张三', 'Teachers.Name': None}
+{'Students.Name': '王五', 'Teachers.Name': None}
+{'Students.Name': '赵六', 'Teachers.Name': None}
+{'Students.Name': '周九', 'Teachers.Name': None}
+{'Students.Name': None, 'Teachers.Name': '王老师'}
+{'Students.Name': None, 'Teachers.Name': '张老师'}
+{'Students.Name': None, 'Teachers.Name': '赵老师'}
+{'Students.Name': None, 'Teachers.Name': '王老师'}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'Students.Name': '张三', 'Teachers.Name': '王老师'}
+{'Students.Name': '张三', 'Teachers.Name': '李四'}
+{'Students.Name': '张三', 'Teachers.Name': '张老师'}
+{'Students.Name': '张三', 'Teachers.Name': '赵老师'}
+{'Students.Name': '张三', 'Teachers.Name': '王老师'}
+{'Students.Name': '李四', 'Teachers.Name': '王老师'}
+{'Students.Name': '李四', 'Teachers.Name': '李四'}
+{'Students.Name': '李四', 'Teachers.Name': '张老师'}
+{'Students.Name': '李四', 'Teachers.Name': '赵老师'}
+{'Students.Name': '李四', 'Teachers.Name': '王老师'}
+{'Students.Name': '王五', 'Teachers.Name': '王老师'}
+{'Students.Name': '王五', 'Teachers.Name': '李四'}
+{'Students.Name': '王五', 'Teachers.Name': '张老师'}
+{'Students.Name': '王五', 'Teachers.Name': '赵老师'}
+{'Students.Name': '王五', 'Teachers.Name': '王老师'}
+{'Students.Name': '赵六', 'Teachers.Name': '王老师'}
+{'Students.Name': '赵六', 'Teachers.Name': '李四'}
+{'Students.Name': '赵六', 'Teachers.Name': '张老师'}
+{'Students.Name': '赵六', 'Teachers.Name': '赵老师'}
+{'Students.Name': '赵六', 'Teachers.Name': '王老师'}
+{'Students.Name': '李四', 'Teachers.Name': '王老师'}
+{'Students.Name': '李四', 'Teachers.Name': '李四'}
+{'Students.Name': '李四', 'Teachers.Name': '张老师'}
+{'Students.Name': '李四', 'Teachers.Name': '赵老师'}
+{'Students.Name': '李四', 'Teachers.Name': '王老师'}
+{'Students.Name': '周九', 'Teachers.Name': '王老师'}
+{'Students.Name': '周九', 'Teachers.Name': '李四'}
+{'Students.Name': '周九', 'Teachers.Name': '张老师'}
+{'Students.Name': '周九', 'Teachers.Name': '赵老师'}
+{'Students.Name': '周九', 'Teachers.Name': '王老师'}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'Name': '张三'}
+{'Name': '李四'}
+{'Name': '王五'}
+{'Name': '赵六'}
+{'Name': '李四'}
+{'Name': '周九'}
+{'Name': '王老师'}
+{'Name': '李四'}
+{'Name': '张老师'}
+{'Name': '赵老师'}
+{'Name': '王老师'}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'Name': '张三'}
+{'Name': '李四'}
+{'Name': '王五'}
+{'Name': '赵六'}
+{'Name': '周九'}
+{'Name': '王老师'}
+{'Name': '张老师'}
+{'Name': '赵老师'}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'Name': '李四'}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'City': '成都'}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+{'Name': '张三'}
+{'Name': '李四'}
+{'Name': '王五'}
+{'Name': '赵六'}
+{'Name': '周九'}
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+当前所有表:
+表 Students: [{'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'}, {'StudentID': 2, 'Name': '李四', 'Age': 21, 'City': '上海'}, {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'}, {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'}, {'StudentID': 7, 'Name': '周九', 'Age': 28, 'City': '成都'}]
+表 _schemas: {'Students': [('StudentID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Age', 'INT', ['NOT NULL']), ('City', 'TEXT', [])], 'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]
+执行结果:
+已删除表: Students
+当前所有表:
+表 _schemas: {'Teachers': [('TeacherID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('Name', 'TEXT', ['NOT NULL']), ('Subject', 'TEXT', []), ('City', 'TEXT', [])], 'Courses': [('CourseID', 'INT', ['PRIMARY KEY', 'NOT NULL']), ('CourseName', 'TEXT', ['NOT NULL']), ('Dept', 'TEXT', [])]}
+表 Teachers: [{'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'}, {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'}, {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'}]
+表 Courses: [{'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'}, {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'}, {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'}, {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'}, {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'}, {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}]

@@ -7,29 +7,29 @@ from executor import execute
 if __name__ == '__main__':
     # 示例内存表
     tables = {
-        'Students': [
-            {'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'},
-            {'StudentID': 2, 'Name': '李四', 'Age': 22, 'City': '上海'},
-            {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'},
-            {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, # 与张三城市重复
-            {'StudentID': 5, 'Name': '钱七', 'Age': 19, 'City': '深圳'},
-            {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'} # 与 StudentID=2 姓名重复
-        ],
-        'Teachers': [ # 新增一个 Teachers 表用于更好的测试
-            {'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'},
-            {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, # 与学生姓名重复
-            {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, # 与学生城市重复
-            {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'},
-            {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'} # 与 TeacherID=101 姓名和城市重复
-        ],
-        'Courses': [
-            {'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'},
-            {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'},
-            {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'},
-            {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'},
-            {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'},
-            {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}
-        ]
+        # 'Students': [
+        #     {'StudentID': 1, 'Name': '张三', 'Age': 20, 'City': '北京'},
+        #     {'StudentID': 2, 'Name': '李四', 'Age': 22, 'City': '上海'},
+        #     {'StudentID': 3, 'Name': '王五', 'Age': 21, 'City': '广州'},
+        #     {'StudentID': 4, 'Name': '赵六', 'Age': 23, 'City': '北京'}, # 与张三城市重复
+        #     {'StudentID': 5, 'Name': '钱七', 'Age': 19, 'City': '深圳'},
+        #     {'StudentID': 6, 'Name': '李四', 'Age': 25, 'City': '上海'} # 与 StudentID=2 姓名重复
+        # ],
+        # 'Teachers': [ # 新增一个 Teachers 表用于更好的测试
+        #     {'TeacherID': 101, 'Name': '王老师', 'Subject': '数据库', 'City': '北京'},
+        #     {'TeacherID': 102, 'Name': '李四', 'Subject': '操作系统', 'City': '广州'}, # 与学生姓名重复
+        #     {'TeacherID': 103, 'Name': '张老师', 'Subject': '数据结构', 'City': '上海'}, # 与学生城市重复
+        #     {'TeacherID': 104, 'Name': '赵老师', 'Subject': '算法设计', 'City': '天津'},
+        #     {'TeacherID': 105, 'Name': '王老师', 'Subject': '计算机网络', 'City': '北京'} # 与 TeacherID=101 姓名和城市重复
+        # ],
+        # 'Courses': [
+        #     {'CourseID': 1001, 'CourseName': '数据库原理', 'Dept': 'CS'},
+        #     {'CourseID': 1002, 'CourseName': '操作系统', 'Dept': 'CS'},
+        #     {'CourseID': 1003, 'CourseName': '计算机网络', 'Dept': 'EE'},
+        #     {'CourseID': 1004, 'CourseName': '数据结构', 'Dept': 'CS'},
+        #     {'CourseID': 1005, 'CourseName': '算法设计', 'Dept': 'CS'},
+        #     {'CourseID': 1006, 'CourseName': '机器学习', 'Dept': 'AI'}
+        # ]
     }
 
     # # 简单自动测试用例
