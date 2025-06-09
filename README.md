@@ -1,5 +1,7 @@
 # 迷你SQL解释器（Python实现）
 
+https://github.com/Vegetog/SQL-interpreter
+
 ## 功能概述
 
 本项目实现了一个基于词法分析、语法分析、AST的迷你SQL解释器，支持在内存中操作表数据，主要功能如下：
